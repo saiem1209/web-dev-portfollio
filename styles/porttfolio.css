@@ -123,3 +123,17 @@ main{
     background-color: white;
     padding: 5px;
 }
+.item-details{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.item-title{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.item-description{
+    font-size: 20;
+    font-weight: bold;
+}
