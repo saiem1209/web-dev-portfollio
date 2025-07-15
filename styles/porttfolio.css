@@ -96,7 +96,9 @@ nav li a{
 .Banner-content{
     max-width: 585px;
 }
-
+main section{
+    margin-top: 130px;
+}
 .about-me{
     background-color: #FFF8F3;
     /* width: 1140px;
@@ -111,7 +113,6 @@ main{
 
 .about{
     max-width: 1140px;
-    margin: 0 auto;
     border-radius: 10px;    
     padding: 130px 150px;
     text-align: center;
@@ -136,4 +137,27 @@ main{
 .item-description{
     font-size: 20;
     font-weight: bold;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    background-color: #FFFFFF;
+    padding: 33px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-description{
+    font-size: 16px;
+    color: #757575;
+
 }
